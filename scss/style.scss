@@ -78,9 +78,11 @@ nav {
     /*margin-top: 150px;
   margin-left: 100px;*/
 
-    img {
+    .articleimg {
+      background-image: url($articleimg-photo);
+      background-repeat: no-repeat;
       /*position: absolute;*/
-      width: 247px;
+      width: 270px;
       height: 108px;
       margin-bottom: 20px;
       /*top: 138px;
