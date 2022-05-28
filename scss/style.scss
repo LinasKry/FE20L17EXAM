@@ -56,8 +56,9 @@ nav {
   height: 640px;
   display: flex;
   flex-direction: row;
-  background-image: url($backsld1-photo),
-    linear-gradient(rgba(28, 28, 28, 0.63), rgba(28, 28, 28, 0.63));
+  background-image: url($backsld1-photo)
+    /*,
+    linear-gradient(rgba(28, 28, 28, 0.63), rgba(28, 28, 28, 0.63))*/;
   background-position: center;
   align-items: center;
   justify-content: center;
