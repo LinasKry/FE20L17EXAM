@@ -208,6 +208,11 @@ nav {
       border-radius: 0px 0px 5px 5px;
       color: white;
     }
+    button:hover {
+      cursor: pointer;
+      opacity: 0.8;
+      font-weight: bold;
+    }
   }
 }
 .social {
