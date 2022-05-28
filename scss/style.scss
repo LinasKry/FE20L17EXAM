@@ -32,7 +32,7 @@ nav {
     a {
       color: aliceblue;
       text-decoration: none;
-      font-family: Montserrat;
+      font-family: $font;
       font-size: 14px;
     }
   }
@@ -81,13 +81,13 @@ nav {
       margin-bottom: 20px;
     }
     h2 {
-      font-family: montserrat;
+      font-family: $font;
       padding: 20px 0px 30px 0px;
       font-size: 36px;
       max-width: 425px;
     }
     p {
-      font-family: montserrat;
+      font-family: $font;
       font-size: 16px;
       max-width: 651px;
     }
@@ -107,7 +107,7 @@ nav {
       height: 57px;
       border-radius: 5px 5px 0px 0px;
       background-color: #f5f5f5;
-      font-family: montserrat;
+      font-family: $font;
       font-size: 20px;
       font-weight: bolder;
       text-align: center;
@@ -129,7 +129,7 @@ nav {
       p {
         width: 280px;
         padding-bottom: 20px;
-        font-family: montserrat;
+        font-family: $font;
         font-weight: 700;
       }
       .formtab17 {
@@ -146,7 +146,7 @@ nav {
           border: none;
           border-bottom: 2px solid rgba(28, 28, 28, 0.6);
           height: 40px;
-          font-family: montserrat;
+          font-family: $font;
           font-size: 12px;
         }
       }
@@ -155,7 +155,7 @@ nav {
         width: 300px;
         align-items: center;
         justify-content: left;
-        font-family: montserrat;
+        font-family: $font;
         margin-bottom: 30px;
         font-size: 9px;
         font-weight: 600;
@@ -199,7 +199,7 @@ nav {
         width: 100%;
         height: 50px;
         background-color: #41d395;
-        font-family: montserrat;
+        font-family: $font;
         font-size: 20px;
         font-weight: 400;
         text-align: center;
@@ -231,7 +231,7 @@ nav {
     margin-top: 10px;
     font-size: 13px;
     padding-left: 152px;
-    font-family: montserrat;
+    font-family: $font;
     h2 {
       font-size: 24px;
       font-weight: 500;
@@ -292,9 +292,11 @@ nav {
     flex-direction: column;
     width: 105px;
     height: 330px;
-
     margin-left: 50px;
     justify-content: space-between;
+    font-family: $font;
+    text-transform: uppercase;
+    color: white;
   }
 
   .tab1,
@@ -302,16 +304,26 @@ nav {
   .tab3 {
     width: 100px;
     height: 100px;
-
-    background-color: #a37169;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.161);
+    .txtrot {
+      padding-top: 40px;
+      rotate: -45deg;
+      font-size: 14px;
+    }
   }
-
+  .tab1:hover,
+  .tab2:hover,
+  .tab3:hover {
+    background-color: #a37169;
+    transition: 1s;
+    box-shadow: 0px 5px 8px rgba(199, 33, 33, 0.5);
+  }
   .textsld3center {
     width: 517px;
     height: 300px;
     border: 2px solid red;
     color: white;
-    font-family: Montserrat;
+    font-family: $font;
   }
 
   .butsld3right {
@@ -373,7 +385,7 @@ nav {
     height: 80%;
 
     color: white;
-    font-family: montserrat;
+    font-family: $font;
     font-size: 14px;
     padding-right: 180px;
 
@@ -427,7 +439,7 @@ nav {
     height: 30%;
 
     line-height: 80px;
-    font-family: montserrat;
+    font-family: $font;
 
     h3 {
       font-size: 36px;
@@ -460,7 +472,7 @@ nav {
     height: 55%;
     flex-direction: row;
 
-    font-family: montserrat;
+    font-family: $font;
 
     div {
       display: flex;
@@ -500,7 +512,7 @@ nav {
     height: 25%;
 
     line-height: 80px;
-    font-family: montserrat;
+    font-family: $font;
     color: white;
 
     h3 {
@@ -534,7 +546,7 @@ nav {
       width: 25%;
       background: rgba(243, 244, 245, 0.4);
       text-align: center;
-      font-family: Montserrat;
+      font-family: $font;
       font-size: 1em;
       padding: 10px;
       min-width: 150px;
@@ -586,7 +598,7 @@ nav {
     height: 25%;
 
     line-height: 80px;
-    font-family: montserrat;
+    font-family: $font;
 
     h3 {
       font-size: 36px;
@@ -694,7 +706,7 @@ nav {
     height: 25%;
     color: white;
     line-height: 80px;
-    font-family: montserrat;
+    font-family: $font;
 
     h3 {
       font-size: 36px;
@@ -736,7 +748,7 @@ nav {
         border: none;
         border-bottom: 2px solid rgba(28, 28, 28, 0.6);
         height: 40px;
-        font-family: montserrat;
+        font-family: $font;
         font-size: 12px;
       }
     }
@@ -745,7 +757,7 @@ nav {
       width: 300px;
       align-items: center;
       justify-content: left;
-      font-family: montserrat;
+      font-family: $font;
       margin-bottom: 30px;
       font-size: 9px;
       font-weight: 600;
@@ -789,7 +801,7 @@ nav {
       width: 40%;
       height: 50px;
       background-color: #41d395;
-      font-family: montserrat;
+      font-family: $font;
       font-size: 20px;
       font-weight: 400;
       text-align: center;
@@ -821,7 +833,7 @@ nav {
       font-size: 20px;
       opacity: 0.6;
       color: rgba(255, 255, 255, 0.5);
-      font-family: montserrat;
+      font-family: $font;
     }
   }
   .socnet {
