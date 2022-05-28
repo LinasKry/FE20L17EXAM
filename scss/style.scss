@@ -44,7 +44,6 @@ nav {
     width: 150px;
     height: 60px;
     background-image: url($navimg-photo);
-    /*background-image: url(../app/images/cheshire-county-hygiene-services.png);*/
     position: absolute;
     /*position: fixed;*/
     left: 100px;
@@ -57,12 +56,11 @@ nav {
   height: 640px;
   display: flex;
   flex-direction: row;
-  /*  flex-wrap: wrap;*/
   background-image: linear-gradient(
       rgba(28, 28, 28, 0.63),
       rgba(28, 28, 28, 0.63)
     ),
-    url("/app/Images/sld1.png");
+    url($backsld1-photo);
   background-position: center;
   align-items: center;
   justify-content: center;
