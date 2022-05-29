@@ -541,7 +541,7 @@ nav {
       margin-top: 1px;
       width: 64px;
       height: 2px;
-      background: #41d395;
+      background: white;
       margin-left: 48%;
     }
     p {
@@ -633,6 +633,7 @@ nav {
   .swiper {
     max-width: 100%;
     padding-left: 100px;
+    z-index: -1;
 
     .swiper-slide {
       display: flex;
@@ -642,6 +643,7 @@ nav {
       justify-content: flex-end;
       transition: 0.3s;
       margin-right: 20px;
+
       .chat {
         width: 273px;
         p {
