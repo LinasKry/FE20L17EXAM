@@ -552,37 +552,67 @@ nav {
 
   .tab14 {
     display: flex;
+    height: 600px;
+    flex-direction: row;
     max-width: 100%;
     justify-content: space-evenly;
-    align-items: center;
-    /*border: 3px solid black;*/
+
     margin: 5px auto;
 
     .box {
-      width: 25%;
-      background: rgba(243, 244, 245, 0.4);
+      width: 345px;
+      height: 550px;
       text-align: center;
       font-family: $font;
       font-size: 1em;
-      padding: 10px;
       min-width: 150px;
-    }
-    h1 {
-      margin-top: 50px;
-      text-shadow: 2px 2px #3a3333;
-      color: white;
-    }
-    h3 {
-      margin-top: 30px;
-      font-size: 50px;
-      font-family: "Times New Roman", Times, serif;
-    }
-    p {
-      margin: 30px 5px 10px 5px;
-    }
-    hr {
-      width: 80%;
-      margin: auto;
+      .blck {
+        height: 220px;
+        width: 100%;
+        background-color: #333333;
+        border-radius: 2px 2px 0px 0px;
+        h1 {
+          color: white;
+          padding: 20px 5px 0px 5px;
+          font-size: 24px;
+          font-weight: 500;
+        }
+        span {
+          font-size: 40px;
+          font-weight: 300;
+        }
+        h3 {
+          font-size: 94px;
+          font-weight: 200;
+          padding: 5px 5px 0px 5px;
+          color: white;
+        }
+        p {
+          padding: 10px 5px 0px 5px;
+          color: #ffffff;
+          opacity: 0.5;
+        }
+      }
+      .grn {
+        height: 8px;
+        width: 100%;
+        background-color: #41d395;
+      }
+      .grnpro {
+        height: 40px;
+        width: 100%;
+        background-color: #41d395;
+        color: white;
+        line-height: 40px;
+      }
+      .wht {
+        height: 280px;
+        width: 100%;
+        background-color: white;
+        p {
+          padding: 20px 5px 0px 5px;
+        }
+      }
     }
   }
 }
@@ -633,7 +663,6 @@ nav {
   .swiper {
     max-width: 100%;
     padding-left: 100px;
-    z-index: -1;
 
     .swiper-slide {
       display: flex;
@@ -702,10 +731,10 @@ nav {
       font-size: 3em;
     }
     .swiper-pagination-bullet {
-      background: rgb(39, 145, 231);
-      border: 2px solid rgb(39, 5, 160);
-      transform: scale(1.2);
-      margin: 10px !important;
+      background: #e27866;
+      border: 1px solid #e27866;
+      transform: scale(1.1);
+      /*margin: 10px !important;*/
     }
   }
 }
