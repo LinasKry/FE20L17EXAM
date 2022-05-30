@@ -112,6 +112,9 @@ nav {
       font-weight: bolder;
       text-align: center;
       line-height: 54px;
+      span {
+        color: red;
+      }
     }
     .inputfrmsld8 {
       display: flex;
@@ -119,6 +122,7 @@ nav {
       justify-content: center;
       align-items: center;
       width: 360px;
+
       /*width: 390px;
     min-width: 360px;*/
       height: 450px;
