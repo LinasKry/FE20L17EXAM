@@ -656,6 +656,7 @@ nav {
       justify-content: flex-end;
       transition: 0.3s;
       margin-right: 20px;
+      padding-bottom: 30px;
       .chat {
         width: 273px;
         p {
@@ -676,6 +677,7 @@ nav {
         flex-direction: row;
         justify-content: space-between;
         margin-top: 30px;
+
         .avatimg {
           width: 70px;
           height: 70px;
@@ -713,11 +715,14 @@ nav {
       text-shadow: 0 0 5px rgb(236, 231, 231);
       font-size: 3em;
     }
+    .swiper-pagination {
+      bottom: 0px !important;
+      padding-top: 50px;
+    }
     .swiper-pagination-bullet {
       background: #e27866;
       border: 1px solid #e27866;
       transform: scale(1.1);
-      /*margin: 10px !important;*/
     }
   }
 }
