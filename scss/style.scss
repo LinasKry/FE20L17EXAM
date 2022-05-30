@@ -522,10 +522,16 @@ nav {
       height: 50px;
       width: 50px;
       border-radius: 25px;
-      background: #e27866;
+      border: 3px solid #e27866;
+
       margin-left: 5px;
       flex-shrink: 0;
       margin-right: 20px;
+    }
+    .crcl3 {
+      background-image: url($visa-photo);
+      background-repeat: no-repeat;
+      background-position: center;
     }
   }
 }
@@ -721,7 +727,7 @@ nav {
     }
     .swiper-button-prev:after,
     .swiper-button-next:after {
-      color: rgb(39, 145, 231);
+      color: #6696e2;
       transition: 0.3s;
     }
     .swiper-button-prev:hover:after,
@@ -739,8 +745,8 @@ nav {
       background: white;
     }
     .swiper-pagination-bullet-active {
-      background: #e27866;
-      border: 1px solid #e27866;
+      background: #6696e2;
+      border: 2px solid #e27866;
       transform: scale(1.2);
     }
   }
