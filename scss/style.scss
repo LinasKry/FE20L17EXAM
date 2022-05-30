@@ -383,9 +383,10 @@ nav {
   .tab6:hover {
     transition: 1s;
     box-shadow: 0px 5px 8px rgba(51, 28, 28, 0.5);
-    cursor: url($cursor1-photo);
-    /*opacity: 0.2;
-    background-color: rgba(163, 113, 105);*/
+    cursor: pointer;
+    /*cursor: url("../app/images/cursor1.png");*/
+    /*cursor: var($cursor1-photo);*/
+    /*cursor: url($cursor1-photo);*/
     filter: sepia(1);
     color: white;
     h3 {
