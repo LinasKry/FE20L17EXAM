@@ -443,10 +443,22 @@ nav {
       height: 50px;
       width: 50px;
       border-radius: 25px;
-      background: #e27866;
       margin-left: 5px;
       flex-shrink: 0;
       margin-right: 20px;
+    }
+    .crcl1 {
+      background: #e27866;
+      background-image: url($eye-photo);
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: 1;
+    }
+    .crcl2 {
+      background: #e27866;
+      background-image: url($cht-photo);
+      background-repeat: no-repeat;
+      background-position: center;
     }
 
     .tab10 {
