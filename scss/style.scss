@@ -276,7 +276,6 @@ nav {
   flex-direction: row;
   width: 100%;
   height: 595px;
-  border: 2px solid red;
   background-image: linear-gradient(
       270deg,
       rgba(102, 150, 226, 0.42),
@@ -382,7 +381,6 @@ nav {
 .about {
   width: 100%;
   height: 595px;
-
   background-color: #1c1c1c;
   display: flex;
   flex-direction: row;
@@ -450,17 +448,18 @@ nav {
 .why {
   width: 100%;
   height: 595px;
+  box-shadow: 0px 1px 3px #00000061;
   .tab11 {
     width: 100%;
     height: 30%;
-
     line-height: 80px;
     font-family: $font;
 
     h3 {
       font-size: 36px;
       text-align: center;
-      margin-top: 20px;
+      /*margin-top: 20px;*/
+      padding-top: 20px;
       font-weight: 500;
     }
     hr {
@@ -520,7 +519,7 @@ nav {
 .pricing {
   width: 100%;
   height: 883px;
-  border: 2px solid red;
+
   background-color: #6696e2;
 
   .tab13 {
@@ -534,7 +533,7 @@ nav {
     h3 {
       font-size: 36px;
       text-align: center;
-      margin-top: 20px;
+      padding-top: 20px;
       font-weight: 500;
     }
     hr {
@@ -620,18 +619,20 @@ nav {
 .review {
   width: 100%;
   height: 595px;
+  box-shadow: 0px 1px 3px #00000061;
 
   .tab15 {
     width: 100%;
     height: 25%;
-
+    padding-top: 40px;
+    padding-bottom: 30px;
     line-height: 80px;
     font-family: $font;
 
     h3 {
       font-size: 36px;
       text-align: center;
-      margin-top: 100px;
+      padding-top: 30px;
       font-weight: 500;
     }
     hr {
@@ -725,7 +726,6 @@ nav {
 .contacts {
   width: 100%;
   height: 573px;
-  border: 2px solid red;
   background-color: #e27866;
   justify-content: center;
 
@@ -739,13 +739,14 @@ nav {
     h3 {
       font-size: 36px;
       text-align: center;
-      margin-top: 40px;
+      padding-top: 40px;
       font-weight: 500;
     }
 
     p {
       font-size: 14px;
       text-align: center;
+      line-height: 20px;
     }
   }
   .inputfrmsld8 {
@@ -843,7 +844,6 @@ nav {
 
 .social2 {
   background: #1c1c1c;
-  border: 2px solid red;
   display: flex;
   flex-wrap: wrap;
   max-width: 100%;
