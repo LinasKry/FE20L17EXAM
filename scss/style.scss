@@ -343,7 +343,6 @@ nav {
     flex-wrap: wrap;
     width: 350px;
     height: 350px;
-
     margin-right: 50px;
     justify-content: space-between;
   }
@@ -358,6 +357,15 @@ nav {
   .tab4 {
     background-image: url($tab4-photo);
     background-size: cover;
+    text-align: center;
+    h3 {
+      color: white;
+      margin-top: 65px;
+      font-family: $font;
+      font-size: 24px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
   }
   .tab5 {
     background-image: url($tab5-photo);
@@ -380,6 +388,9 @@ nav {
     background-color: rgba(163, 113, 105);*/
     filter: sepia(1);
     color: white;
+    h3 {
+      font-weight: 600;
+    }
   }
 }
 .about {
