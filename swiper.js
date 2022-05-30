@@ -29,5 +29,9 @@ const swiper = new Swiper(".swiper", {
       slidesPerView: 3,
       slidesPerGroup: 1,
     },
+    1400: {
+      slidesPerView: 3,
+      slidesPerGroup: 1,
+    },
   },
 });
