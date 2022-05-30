@@ -560,16 +560,16 @@ nav {
 
     .box {
       width: 345px;
-      height: 550px;
       text-align: center;
       font-family: $font;
       font-size: 1em;
       min-width: 150px;
+
       .blck {
         height: 220px;
         width: 100%;
         background-color: #333333;
-        border-radius: 2px 2px 0px 0px;
+        border-radius: 6px 6px 0px 0px;
         h1 {
           color: white;
           padding: 20px 5px 0px 5px;
@@ -608,6 +608,7 @@ nav {
         height: 280px;
         width: 100%;
         background-color: white;
+        border-radius: 0px 0px 6px 6px;
         p {
           padding: 20px 5px 0px 5px;
         }
